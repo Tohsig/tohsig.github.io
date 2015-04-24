@@ -1,0 +1,16 @@
+# Site settings
+title: JotDashed
+tagline: Sequential Inanities
+email: tohsig@jotdashed.com
+description: > # This means to ignore newlines until "baseurl:"
+  [taw-sig]: A big, bearded programmer<br>and writer with hobbies and fascinations.
+
+baseurl:  # the subpath of your site, e.g. /blog/
+url: http://tohsig.com # the base hostname & protocol for your site
+twitter_username: Tohsig
+github_username:  Tohsig
+
+# Build settings
+markdown: kramdown
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
